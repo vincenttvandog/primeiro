@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Nothing+You+Could+Do&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nothing+You+Could+Do&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+:root{
+    --fonte--FURR: "Cinzel Decorative", serif;
+    --fonte--destaque: "Nothing You Could Do";
+    --fonte--padrao:"Montserrat", sans-serif;
+    
+    
+    --cor0: white;
+    --cor1: #FFC5BF;
+    --cor2:#C96D65;
+    --cor3:#8A2B22;
+    --cor4:#4A0600;
+    --corp0: black;
+}
+
+header{
+    background-color: var(--cor4);
+    padding: 30px;
+}
+
+header h1{
+    font-family: var(--fonte--FURR);
+    color: white;
+    font-size: 3em;
+    line-height: 1.2em;
+    text-align: center;
+
+}
+
+header p{
+    color: var(--cor1); 
+        font-family: var(--fonte--destaque);
+        text-align: center;
+        padding: 15px;
+          margin: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:var(--cor1);
+    font-weight:bold;
+    padding: 10px;
+     
+
+}
+nav a:hover{
+    background-color: var(--cor1);
+    color: var(--cor2);
+
+}
+
+main{
+    
+    
+
+}
+
+main video{
+    background-image:linear-gradient(to bottom, var(--cor0), var(--cor1));
+    position: absolute;
+   
+  
+    width: 100%; 
+    height:100%;
+    margin-bottom: 100px;}
+    
+
+    footer{
+    display: block;
+    background-color: var(--cor4);
+    width: 100px ;
+    height:100px ;
+}
+
+
+
+
+  
+
