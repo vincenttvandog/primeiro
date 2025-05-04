@@ -63,8 +63,8 @@ header p{
     color:var(--cor1);
     padding: 20px 30px 30px 30px;
     font-size: 1.1em;
-    line-height: 2em;
-    font-weight: lighter;
+    line-height: 2.3em;
+    font-weight: normal;
 }
 
 main{}
