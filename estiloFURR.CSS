@@ -78,20 +78,23 @@ main{
 }
 
 main video{
-    background-image:linear-gradient(to bottom, var(--cor0), var(--cor1));
-    position: absolute;
    
+    position: absolute;
+   padding-top: 0%;
     padding-left: 60px;
     width: 90%; 
     height:90%;
-    margin-bottom: 90px;}
+    margin-bottom: 90px;
+     }
     
 
     footer{
-    display: block;
-    background-color: var(--cor4);
-    width: 100px ;
+    position: relative;
+    color: var(--cor0);
+    background-color: var(--corp0);
+    width: 1521px ;
     height:100px ;
+    margin-top: 610px;
 }
 
 
