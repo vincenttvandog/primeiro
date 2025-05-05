@@ -93,8 +93,7 @@ main h1{
     font-size: 2em;
     text-align: center;
     color:var(--corp0);
-    width: 300px;
-    margin: 0px 610px;
+    margin: auto
     
     
  }
@@ -143,13 +142,10 @@ background-color: var(--cor1);
 }
 
 footer{
-    background-color: var(--corp0);
-    color:var(--cor0);
-    font-size: 0.8em;
-    height:120px;
-    font-family: var(--fonte--padrao);
-    font-weight: 200;
-    padding: 20px;
+    color: var(--cor0);
+        background-color: var(--corp0);
+        font-size: 0.8em;
+        padding: 20px 20px 0px 10px;
 }
 footer nav a{ 
     background-color: var(--corp0);
@@ -158,8 +154,11 @@ footer nav a{
     text-decoration: none;
     color:var(--cor1);
     font-weight:200;
-    padding: 10px 10px 10px 10px;
-}
+    line-height: 50px;
+    padding: 5px 20px 10px 10px;
+    margin-right: 10px;}
+
+
 footer a:hover{ 
     color: var(--cor0);
     background-color: rgba(255, 255, 255, 0.285)}
