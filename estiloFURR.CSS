@@ -20,6 +20,10 @@
     text-align: justify;
 }
 
+body{
+    background-color: var(--cor1);
+}
+
 :root{
     --fonte--FURR: "Cinzel Decorative", serif;
     --fonte--destaque: "Nothing You Could Do";
@@ -78,25 +82,27 @@ main{
 }
 
 main video{
-   
+    background-color: var(--cor0);
+    display: block;
     position: absolute;
-   padding-top: 0%;
-    padding-left: 60px;
-    width: 90%; 
-    height:90%;
-    margin-bottom: 90px;
-     }
+    padding-top: 0%;
+    margin: 0px 0px 0px 72px;
+    width: 90%;
+    height: 90%;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.436);
+   
+}
     
 
     footer{
-    position: relative;
-    color: var(--cor0);
-    background-color: var(--corp0);
-    width: 1429px ;
-    font-size: 0.8em;
-    height:100px ;
-    margin-top: 610px;
-    padding: 20px;
+        position: relative;
+        color: var(--cor0);
+        background-color: var(--corp0);
+        width: 1481px;
+        font-size: 0.8em;
+        height: 100px;
+        margin-top: 630px;
+        padding: 20px;
 }
 
 footer nav a{ 
