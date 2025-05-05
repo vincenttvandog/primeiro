@@ -39,7 +39,9 @@
 header{
     background-color: var(--cor4);
 }
-a#home{ font-size: 3em;
+a#home{ 
+   
+    font-size: 3em;
     margin: 0px;
     margin-left: 20px;
     padding: 0px;

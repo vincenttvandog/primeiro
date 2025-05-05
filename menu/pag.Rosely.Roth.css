@@ -77,6 +77,10 @@ main article{
     font-weight: 400;
 }
 
+main h1{
+    font-family: var(--fonte--FURR);
+}
+
 main a{
     color: var(--corp0);
     font-size: 3em;
