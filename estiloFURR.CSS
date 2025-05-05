@@ -92,10 +92,25 @@ main video{
     position: relative;
     color: var(--cor0);
     background-color: var(--corp0);
-    width: 1521px ;
+    width: 1429px ;
+    font-size: 0.8em;
     height:100px ;
     margin-top: 610px;
+    padding: 20px;
 }
+
+footer nav a{ 
+    background-color: var(--corp0);
+    font-family: var(--fonte--padrao);
+    text-align: right;
+    text-decoration: none;
+    color:var(--cor1);
+    font-weight:200;
+    padding: 10px 10px 10px 10px;}
+
+footer a:hover{ 
+    color: var(--cor0);
+    background-color: rgba(255, 255, 255, 0.285)}
 
 
 
