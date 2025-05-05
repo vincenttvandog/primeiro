@@ -37,3 +37,150 @@ body{
     --cor4:#4A0600;
     --corp0: black;
 }
+
+header{
+    background-color: var(--cor4);
+}
+a#home{ 
+   color: var(--cor0);
+    font-size: 3em;
+    margin: 0px;
+    margin-left: 20px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+a#home:hover{
+    background-color: var(--cor1) ;
+    color: var(--cor2) ;
+ }
+
+header h1{
+    font-family: var(--fonte--FURR);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+
+header p{
+    font-family: var(--fonte--destaque);
+    color:var(--cor1);
+    padding: 20px 30px 30px 30px;
+    font-size: 1.1em;
+    line-height: 2.3em;
+    font-weight: normal;
+}
+
+
+video{
+    width: 65% ;
+    height: 50%;
+    margin-left:250px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.422);
+
+}
+
+
+
+main article{
+    font-family:var(--fonte--padrao);
+    padding: 20px 40px 20px 40px;
+    font-size: 1.2em;
+    line-height: 2.5em;
+    font-weight: 400;
+}
+
+main h1{
+    font-family: var(--fonte--FURR);
+}
+main h2{
+    font-family: var(--fonte--FURR);
+}
+
+main p{
+    line-height: 2.5em;;
+}
+
+ li{
+    padding-left: 10px;
+ }
+
+main a{
+    color: var(--corp0);
+    font-size: 3em;
+    text-decoration: none;
+
+}
+main a:hover{ 
+    color: var(--cor3);
+    background-color: var(--cor1);}
+
+.mensagem{
+    font-family: var(--fonte--FURR);
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    color:var(--corp0);
+    
+}
+
+#agradecimento{
+    font-family:var(--fonte--destaque) ;
+    margin-left: 270px;
+}
+
+    aside{
+        font-family:var(--fonte--padrao);
+        padding: 20px 40px 20px 40px;
+        font-size: 1.2em;
+        line-height: 2.5em;;
+        font-weight: 400;}
+
+.pf{
+    line-height: 1.1em;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.depoimento{
+    text-decoration: underline;
+    font-weight: 400;
+}
+#cabecario{  
+    background-color: var(--cor4);
+    color: var(--cor0);
+    border: 1px solid black;
+
+}
+.calendario{
+    color: var(--corp0);
+    border: 1px solid black;
+
+
+}
+
+
+    footer{
+        color: var(--cor0);
+            background-color: var(--corp0);
+            font-size: 0.8em;
+            padding: 20px 20px 0px 10px;
+    }
+    footer nav a{ 
+        background-color: var(--corp0);
+        font-family: var(--fonte--padrao);
+        text-align: right;
+        text-decoration: none;
+        color:var(--cor1);
+        font-weight:200;
+        line-height: 50px;
+        padding: 5px 20px 10px 10px;
+        margin-right: 10px;}
+    
+    
+    footer a:hover{ 
+        color: var(--cor0);
+        background-color: rgba(255, 255, 255, 0.285)}
