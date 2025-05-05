@@ -64,6 +64,7 @@ nav a{
     font-family: serif;
     font-size: 14px;
     text-decoration: none;
+    min-width: 320px;
     color:var(--cor1);
     font-weight:bold;
     padding: 10px;}
@@ -83,25 +84,20 @@ main{
 
 main video{
     background-color: var(--cor0);
-    display: block;
-    position: absolute;
     padding-top: 0%;
-    margin: 0px 0px 0px 72px;
+    margin: 0px 0px 0px 200px;  
+    height: 100%;
     width: 90%;
-    height: 90%;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.436);
    
 }
     
 
     footer{
-        position: relative;
+       
         color: var(--cor0);
         background-color: var(--corp0);
-        width: 1481px;
         font-size: 0.8em;
-        height: 100px;
-        margin-top: 630px;
         padding: 20px;
 }
 
