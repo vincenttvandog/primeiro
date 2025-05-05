@@ -17,6 +17,7 @@
 *{
     margin:0px;
     padding:0px;
+    text-align: justify;
 }
 
 :root{
@@ -55,14 +56,14 @@ header p{
           margin: 10px;
 }
 
-nav a{
+nav a{ 
+    font-family: serif;
+    font-size: 14px;
     text-decoration: none;
     color:var(--cor1);
     font-weight:bold;
-    padding: 10px;
-     
-
-}
+    padding: 10px;}
+   
 nav a:hover{
     background-color: var(--cor1);
     color: var(--cor2);
@@ -70,6 +71,7 @@ nav a:hover{
 }
 
 main{
+    max-width: 900px;
     
     
 
