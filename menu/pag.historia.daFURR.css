@@ -50,16 +50,22 @@ header h1{
     font-size: 2.5em;
 }
 
-#home{
-    position: absolute;
-    font-size: 3em;
-    margin: 0px;
-    margin-left: 20px;
-    margin-top: 35px;
-    padding: 0px;
+a#home{ 
+    color: var(--cor0);
+     font-size: 3em;
+     margin: 0px;
+     margin-left: 20px;
+     padding: 0px;
+     text-decoration: none;}
+
+     a#home:hover{
+        background-color: var(--cor1) ;
+        color: var(--cor2) ;
+     }
+ 
 
 
-}
+
 
 main video{
     margin: auto;
@@ -99,3 +105,25 @@ main a{
     main a:hover{ 
         color: var(--cor3);
         background-color: var(--cor1);}
+
+        footer{
+            color: var(--cor0);
+                background-color: var(--corp0);
+                font-size: 0.8em;
+                padding: 20px 20px 0px 10px;
+        }
+        footer nav a{ 
+            background-color: var(--corp0);
+            font-family: var(--fonte--padrao);
+            text-align: right;
+            text-decoration: none;
+            color:var(--cor1);
+            font-weight:200;
+            line-height: 50px;
+            padding: 5px 20px 10px 10px;
+            margin-right: 10px;}
+        
+        
+        footer a:hover{ 
+            color: var(--cor0);
+            background-color: rgba(255, 255, 255, 0.285)}

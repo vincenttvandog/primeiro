@@ -40,15 +40,18 @@ header{
     background-color: var(--cor4);
 }
 a#home{ 
-   
+   color: var(--cor0);
     font-size: 3em;
     margin: 0px;
     margin-left: 20px;
     padding: 0px;
-
-     
-
+    text-decoration: none;
 }
+
+a#home:hover{
+    background-color: var(--cor1) ;
+    color: var(--cor2) ;
+ }
 
 header h1{
     font-family: var(--fonte--FURR);
