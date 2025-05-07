@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Nothing+You+Could+Do&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nothing+You+Could+Do&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+    text-align: justify;
+}
+
+:root{
+    --fonte--FURR: "Cinzel Decorative", serif;
+    --fonte--destaque: "Nothing You Could Do";
+    --fonte--padrao:"Roboto Flex", sans-serif;
+    
+    
+    --cor0: white;
+    --cor1: #FFC5BF;
+    --cor2:#C96D65;
+    --cor3:#8A2B22;
+    --cor4:#4A0600;
+    --corp0: black;
+}
+
+header{
+    background-color: var(--cor4);
+}
+a#home{ 
+   color: var(--cor0);
+    font-size: 3em;
+    margin: 0px;
+    margin-left: 20px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+a#home:hover{
+    background-color: var(--cor1) ;
+    color: var(--cor2) ;
+ }
+
+header h1{
+    font-family: var(--fonte--FURR);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5em;
+    
+    
+}
+
+
+header p{
+    font-family: var(--fonte--destaque);
+    color:var(--cor1);
+    padding: 10px 0px 0px 270px;
+    font-size: 1.1em;
+    line-height: 2.3em;
+    font-weight: normal;
+}
+
+main h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: center;
+    font-family:var(--fonte--FURR) ;
+    font-weight: bold;
+    font-size: 2.4em;
+  
+    background-color: white;
+    
+}
+
+
+
+#Princ{
+    margin-top: 50px;
+    
+    
+}
+
+ main p#citacao{
+    
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    color:var(--corp0);
+    margin: auto;
+    margin-left: 240px;
+    margin-bottom: 100px;
+    
+    
+ }
+  main article a{
+    font-family: var(--fonte--padrao);
+    font-size: 1.7em;
+    line-height: 1.3;
+    font-weight: bold;
+    margin-left: 150px;
+    text-decoration: none;
+    color: var(--corp0);}
+
+    main a:hover{ 
+        color: var(--cor3);
+        background-color: var(--cor1);
+}
+
+    main p{
+   
+    font-family: var(--fonte--padrao);
+    font-size: 1.5em;
+    margin-left: 150px;
+    padding: 10px;
+    max-width: 850px;
+    font-weight: 200;}
+
+.data{
+    font-family: var(--fonte--padrao);
+    font-size: 1.3em;
+    font-weight:100;
+    padding: 20px;
+    margin-left: 250px;
+}
+
+
+
+ img{
+    display: block;
+    margin-left:250px;
+    margin-bottom: 50px;
+    width: 700px ;
+    height: 424px;}
+    
+#segl{
+    display: block;
+    width: 700px;}
+
+#segl:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color:#000000
+}
+   
+
+
+footer{
+    color: var(--cor0);
+    background-color: var(--corp0);
+    font-size: 0.8em;
+    padding: 20px 20px 0px 10px;
+    }
+
+footer nav a{ 
+    background-color: var(--corp0);
+    font-family: var(--fonte--padrao);
+    text-align: right;
+    text-decoration: none;
+    color:var(--cor1);
+    font-weight:200;
+    line-height: 50px;
+    padding: 5px 20px 10px 10px;
+     margin-right: 10px;}
+
+    
+footer a:hover{ 
+    color: var(--cor0);
+    background-color: rgba(255, 255, 255, 0.285)}
+
+ 
+
+    
+ 
+
+
+
+ 
