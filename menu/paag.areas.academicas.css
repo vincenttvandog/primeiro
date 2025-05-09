@@ -125,20 +125,18 @@ main p{
 }
 
 main a{
-    position: absolute;
+    
     font-family: var(--fonte--padrao);
     text-align: left;
     font-size: 2em;  
-    margin-top: 19%;
-    margin-left: 70px;
+    margin-left: 50%;
+    margin-top: 70px;
     text-decoration: none;
     color: black;  
-    font-weight:200;      }
+    font-weight:200;   }   
 
 
-   
-
-
+    
  main a:hover{ 
 color: var(--cor3);
 background-color: var(--cor1);
