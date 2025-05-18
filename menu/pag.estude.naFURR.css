@@ -149,18 +149,30 @@ main a:hover{
     text-decoration: underline;
     font-weight: 400;
 }
-#cabecario{  
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+
+}
+
+th{
+    border: 1px solid black;
+    padding: 2px;
+    padding-left: 20px;
     background-color: var(--cor4);
     color: var(--cor0);
-    border: 1px solid black;
-
 }
-.calendario{
-    color: var(--corp0);
+
+
+td{
     border: 1px solid black;
-
-
+    padding: 2px;
+    padding-left: 20px;
 }
+
+
 
 
     footer{
